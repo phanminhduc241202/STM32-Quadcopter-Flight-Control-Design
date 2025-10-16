@@ -7,6 +7,11 @@
 #define HAL_I2C_Mem_Read(hi2c, Addr, Reg, Size, Data, Len, Timeout) 0
 #define HAL_I2C_IsDeviceReady(hi2c, Addr, Trials, Timeout) 0 // 0=OK, 1=Error
 
+// Định nghĩa giá trị M_PI
+#ifndef M_PI
+#define M_PI 3.14159265358979323846f
+#endif
+
 // --- Dữ liệu Mock ---
 void *hi2c1_mock = NULL; 
 
